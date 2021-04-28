@@ -6,6 +6,7 @@ Get-WLANs | Sort-Object -Property RSSI -Descending | Format-Table
 
 # export to CSV example
 # Get-WLANs | Select-Object * | Export-Csv -Path .\Get-WLANs.csv -NoTypeInformation
+# get-wlans  | export-csv c:\temp\Get-WLANs.csv
 
 # remove module after we're done with it
 Remove-Module Get-WLANs
